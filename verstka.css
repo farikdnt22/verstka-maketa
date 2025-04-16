@@ -1,0 +1,66 @@
+*{margin: 0;
+ box-sizing: border-box;
+
+}
+
+
+
+
+
+body { 
+    font-family: "Montserrat", sans-serif;
+    background-image: url(img_catalog/background-1.png);
+    background-repeat: no-repeat;
+
+}
+header {
+     /*прописываю хэдер*/
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    
+
+}
+
+nav { 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    max-width: 100%
+    margin: 0 auto;
+    margin-top: 37px;
+}
+
+nav>p {
+    font-size: 21px;
+}
+.destination{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+
+.destination>p {
+    font-size: 12px;
+    
+}
+.work-time {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.work-time>p {
+    font-size: 13px;
+    font-weight: 300;
+   
+    
+}
+.work-time>p>span {
+    font-size: 20px;
+    font-weight: bold;
+
+}
